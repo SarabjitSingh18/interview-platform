@@ -22,3 +22,5 @@ const syncUser = inngest.createFunction(
     await User.create(newUser);
     }
 )
+
+export const functions = [syncUser, ];
